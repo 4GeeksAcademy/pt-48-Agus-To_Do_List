@@ -1,51 +1,62 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-margin: 0;
-padding: 1rem;
-font-family: system-ui, sans-serif;
-color: black;
-background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    padding: 1rem;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 height: 100vh;
 }
 
 #app {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-font-weight: 800;
-font-size: 1.5rem;
+    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .main__container {
-display: flex;
-flex-direction: column;
-padding: 1.5rem;
-width: 700px;
-background: rgba( 70, 43, 172, 0.3 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 3px );
--webkit-backdrop-filter: blur( 3px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    width: 700px;
+    background: rgba( 70, 43, 172, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .btn-dark {
-width: 150px;
-align-self: end;
-position: absolute;
+    width: 150px;
+    align-self: end;
+    position: absolute;
 }
 
 input {
-height: 2.40rem;
+    height: 2.40rem;
+    border-radius: 5px;
 }
 
 li {
-width: 97%;
-list-style-type: "\23F0";
+    width: 97%;
+    list-style-type: "\23F0";
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+span {
+    color: lightgray;
 }
